@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <style>
+      .calculation_opertaions button{
+       width: 100px;
+       height: 100px;
+       border-radius : 10px;
+       }
+    </style>
+    <body>
+        <form>
+            <div>
+                <label for="firstInput">Enter the value of a</label>
+                <input type="text" id="firstInput" placeholder="enter a" />
+                <input type="text" id="secondInput" placeholder="enter b" />
+            </div>
+            <div class="calculation_opertaions">
+                <button onclick="calculate('add')"> Add </button>
+                <button onclick="calculate('sub')"> Subtract </button>
+                <button onclick="calculate('mul')"> Multiply </button>
+                <button onclick="calculate('div')"> Divide </button>
+            </div>
+        </form>
+        <div id="resultModal">
+            <span id="result"></span>
+        </div>
+        <script>
+            function calculate(type) {
+                var result, input1, input2;
+                input1 = document.getElementById('firstInput').value;
+                input2 = document.getElementById('firstInput').value;
+                switch (type) {
+                    case  'add':
+                        result = input1 + input2
+                        break;
+                    case  'sub':
+                        result = input1 - input2
+                        break;
+                    case  'mul' :
+                        result = input1 * input2
+                        break;
+                    case 'div' :
+                        result = input1 / input2
+                        break;
+        
+                    default : 0
+                  }
+                  document.getElementById(result).innerHTML = result;
+                  document.getElementById(result).innerHTML = result;
+                }
+        </script>
+    </body>
+</html>
+
+
+
+
