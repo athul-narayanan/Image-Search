@@ -3,6 +3,8 @@ Image Gallery - React Js project
 React app to search images of different category . https://api.unsplash.com is used to get images of differnt category and they are displayed on the screen using css grid system
 
  ![alt text](https://github.com/athul-narayanan/Image-Search/blob/master/image-gallery-car.png)
+ ![alt text](https://github.com/athul-narayanan/Image-Search/blob/master/Image-gallery-react.png)
+ 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
